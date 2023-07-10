@@ -89,7 +89,7 @@ public class Runner {
                 for (i = 0; i < numbers.size(); i++) {
                     /* if the number is not 13 AND
                     is Either first in the array OR is not preceded by 13 */
-                    if (numbers.get(i) != 13 && (i == 0 || numbers.get(i - 1) != 13)) {
+                    if (numbers.get(i) != 13 && (i == 0 || numbers.get(i-1) != 13)) {
                         sum += numbers.get(i);
                     }
 
